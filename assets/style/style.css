@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+#join {
+  padding: 40px 0px;
+  max-width: 100%;
+  background-color: #3498db;
+}
+.blue {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  height: 400px;
+  background-color: #34495e;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: white;
+}
+.forcards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  align-items: center;
+}
+.price {
+  text-align: center;
+}
+button {
+  max-width: 50%;
+  margin: 5px auto;
+  padding: 5px 10px;
+  border: none;
+  background-color: #0072ef;
+  color: white;
+}
+.white {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  height: 450px;
+  background-color: white;
+}
+.black {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  height: 500px;
+  background-color: black;
+}
+.blue p {
+  color: #0072ef;
+}
+.white p {
+  color: #0072ef;
+}
+.black p {
+  color: #0072ef;
+}
+.blue h3 {
+  color: white;
+}
+.white h3 {
+  color: #34495e;
+}
+.black h3 {
+  color: white;
+}
+.blue h6 {
+  color: #3498db;
+}
+.white h6 {
+  color: #34495e;
+}
+.black h6 {
+  color: white;
+}
+.white ul {
+  color: #34495e;
+}
+.fa-check {
+  color: blue;
+}
+.forjoin {
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+}
