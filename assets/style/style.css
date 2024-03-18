@@ -64,8 +64,9 @@ img{
     color: white;
     background-color: #0072EF;
     border-radius: 5px;
-    padding: 10px 0;
+    padding: 15px 0;
     margin-top: 20px;
+    width: 100%;
     
 }
 @media only screen and (max-width: 992px) {
