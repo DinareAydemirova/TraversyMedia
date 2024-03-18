@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+   
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Poppins;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.courses{
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+}
+.blue-text {
+    color: blue; 
+  }
+img{
+    width: 53px;
+    height: 53px;
+  
+}
+.boxes{
+   
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.box{
+   border-radius: 5px;
+    
+    display: flex;
+   background-color: #222222;
+    padding: 20px 30px;
+    
+
+}
+.allIvents{
+    color: #0072EF;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.shopping{
+    color: #0072EF;
+    text-decoration: none;
+}
+.show{
+    border: none;
+    color: white;
+    background-color: #0072EF;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-top: 20px;
+    
+}
+@media only screen and (max-width: 992px) {
+    
+    .boxes{
+        grid-template-columns: 1fr 1fr ;
+    }
+    }
+    @media only screen and (max-width: 600px) {
+    
+        .boxes{
+       
+       
+            
+            grid-template-columns: 1fr ;
+        }
+        }
