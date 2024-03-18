@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#third{
+    max-width:100%;
+    background-color: #3498db;
+
+}
+
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+.forthird{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.bigimage{
+    max-width: 40%;
+}
+
+.bigimage img{
+    max-width: 100%;
+}
+
+.traversy{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.viewchannel{
+    padding: 5px 15px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.about{
+    color: white;
+    font-size: 36px;
+}
+
+.forabout{
+    font-size: 18px;
+    color: white;
+}
