@@ -198,3 +198,43 @@
         gap: 35px;
     }
   }
+
+
+footer{
+    background-color:rgb(72, 72, 72) ;
+
+}
+.forfootr{
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.icon img{
+    width: 30px;
+}
+
+
+@media screen and (max-width: 992px) {
+    .forfootr{
+        color: white;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;}
+    
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .forfootr{
+        color: white;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;}
+    }
