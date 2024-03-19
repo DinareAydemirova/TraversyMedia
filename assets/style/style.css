@@ -343,7 +343,7 @@ footer{
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  height: 400px;
+  height: 500px;
   background-color: #34495e;
 }
 ul {
@@ -382,7 +382,7 @@ button {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  height: 450px;
+  height: 550px;
   background-color: white;
 }
 .black {
@@ -390,7 +390,7 @@ button {
   flex-direction: column;
   gap: 10px;
   padding: 20px;
-  height: 500px;
+  height: 650px;
   background-color: black;
 }
 .blue p {
